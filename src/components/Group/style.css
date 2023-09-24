@@ -1,0 +1,40 @@
+.group {
+  height: 81px;
+  transform: rotate(2deg);
+  width: 1584px;
+}
+
+.group .overlap-group {
+  height: 81px;
+  position: relative;
+}
+
+.group .rectangle {
+  background-color: #141b34;
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1584px;
+}
+
+.group .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 155px;
+  left: 166px;
+  position: absolute;
+  top: 16px;
+}
+
+.group .text-wrapper {
+  color: #ffffff;
+  font-family: "Playfair Display", Helvetica;
+  font-size: 37px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
